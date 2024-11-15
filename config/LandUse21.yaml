@@ -1,0 +1,17 @@
+dataset: LandUse21
+
+encoder_dim:
+  - [ 59, 1024, 1024, 1024, 128 ]
+  - [ 40, 1024, 1024, 1024, 128 ]
+
+n_classes: 21
+batch_size: 1024
+momentum: 0.98
+temperature: 0.5
+
+blr: 5.0e-4
+min_blr: 5.0e-4
+weight_decay: 0
+data_path: /mount/ruiming/multiview
+output_dir: _OBJ001_v3_ablation
+seed: 1

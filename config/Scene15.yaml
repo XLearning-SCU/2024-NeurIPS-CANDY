@@ -1,0 +1,19 @@
+dataset: Scene15
+
+encoder_dim:
+  - [ 20, 1024, 1024, 1024, 128 ]
+  - [ 59, 1024, 1024, 1024, 128 ]
+
+n_classes: 15
+
+batch_size: 1024
+momentum: 0.98
+temperature: 0.5
+
+blr: 5.0e-4
+min_blr: 5.0e-4
+weight_decay: 0
+
+data_path: /mount/ruiming/multiview
+output_dir: output/Scene15
+seed: 1

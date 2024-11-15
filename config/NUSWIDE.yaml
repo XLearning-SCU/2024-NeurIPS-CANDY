@@ -1,0 +1,19 @@
+dataset: NUSWIDE
+
+encoder_dim:
+  - [ 4096, 1024, 1024, 1024, 128 ]
+  - [ 300, 1024, 1024, 1024, 128 ]
+
+n_classes: 10
+drop_rate: 0.4
+batch_size: 1024
+momentum: 0.9
+temperature: 0.5
+
+
+blr: 5.0e-4
+min_blr: 5.0e-4
+weight_decay: 0
+data_path: /mount/ruiming/multiview
+output_dir: output/NUSWIDE
+seed: 1
